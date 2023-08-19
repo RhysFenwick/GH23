@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 birth = pd.read_csv("normalised_birth_data.csv")
 population = pd.read_csv("normalised_population_data.csv")
@@ -20,3 +21,9 @@ new = pd.DataFrame({"Location": new_locations,"Births":new_birth,"Population":ne
 overall_score = new["Births"] * new["Population"] * new["SES"]
 score_dataframe = pd.DataFrame({"Location": new_locations, "Score": overall_score})
 score_dataframe.to_csv("scores.csv",index=False)
+
+max_scores = np.argsort(overall_score).to_list()[-5:]
+best_values = (score_dataframe.loc[max_scores]["Location"].to_list())
+print("The best places to set up are:")
+for x in best_values:
+    print(x)
