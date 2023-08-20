@@ -1,0 +1,39 @@
+// .donor-container {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     flex-direction: column;
+//     height: 96%;
+// }
+
+// h1 {
+//     font-size: 80px;
+//     font-weight: 900;
+// }
+
+.slide-1 {
+    background-image: url("./../../assets/images/donor_dashboard_1.png");
+    width: 100vw;
+    height: 92vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide-2 {
+    background-color: #F5F5EF;
+    height: 450px;
+}
+
+.floating-button {
+    background-color: #11d4b7 !important;
+    display: inline-block;
+    padding: 15px;
+    position: absolute;
+    bottom: 80px;
+    right: 150px;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+}

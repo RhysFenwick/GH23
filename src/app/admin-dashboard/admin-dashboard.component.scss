@@ -1,0 +1,64 @@
+
+.content-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#map {
+    width: 70%;
+    height: 700px;
+}
+
+.input-card {
+  max-width: 600px;
+  margin-left: 8px;
+}
+
+.example-label-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10px 0;
+  max-width: 284px;
+}
+
+.slider-input{
+  margin: 8px 15px;
+  width: 80%;
+}
+
+#floating-panel {
+    position: absolute;
+    top: 10px;
+    left: 25%;
+    z-index: 5;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #999;
+    text-align: center;
+    font-family: "Roboto", "sans-serif";
+    line-height: 30px;
+    padding-left: 10px;
+  }
+
+  #floating-panel {
+    background-color: #fff;
+    border: 1px solid #999;
+    left: 25%;
+    padding: 5px;
+    position: absolute;
+    top: 120px;
+    z-index: 100;
+    border-radius: 4px;
+    opacity: 0.9;
+  }
+
+  button {
+    margin: 8px;
+  }
+
+  h1 {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    margin: 12px auto;
+  }

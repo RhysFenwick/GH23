@@ -1,0 +1,19 @@
+<!-- <mat-toolbar class="app-header">
+  <span class="app-name">Give And Grow Together</span>
+  <span class="spacer"></span>
+  <button mat-raised-button color="accent" routerLink="/donors" routerLinkActive="active">Donors</button>
+  <button mat-raised-button color="accent" routerLink="/org" routerLinkActive="active">Organizations</button>
+  <button mat-raised-button color="accent" routerLink="/admin" routerLinkActive="active">Admins</button>
+</mat-toolbar> -->
+
+<div class="app-header">
+  <span class="app-name">Give And Grow Together</span>
+  <span class="spacer"></span>
+  <div class="link-container">
+    <div class="button" routerLink="/donors" routerLinkActive="active">Donor</div>
+    <div class="button" routerLink="/org" routerLinkActive="active">Organisations</div>
+    <div class="button" routerLink="/admin" routerLinkActive="active">Admin</div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
