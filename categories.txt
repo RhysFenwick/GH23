@@ -1,0 +1,15 @@
+s-baby-carriers c18577
+s-baby-clothing c18578
+s-baths c18579
+s-cots-bedding c18580
+s-feeding c18581
+s-toys-indoor c18585
+s-kids-clothing  c20042
+s-other-baby-children c18584
+s-prams-strollers c18583
+s-car-seats c20097
+s-monitors c20099
+s-other-safety c20101
+s-playpens c20100
+s-safety-gates c20098
+s-baby-children c18318
